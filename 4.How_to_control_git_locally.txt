@@ -25,10 +25,12 @@ or search on google what do you want to add
 
 then again see git status 
 
-then use ' git commit -m " your message" to commit file or last code 
+then use --> git commit -m " your message" to commit file or last code 
 
+to edit commit message use 
+use --> git commit --amend -m "Your new commit message"
 
- use 'git diff filename'  to see current version and last save point in our git repository  
+use 'git diff filename'  to see current version and last save point in our git repository  
 
  if any mistake happens in code and you want to move back to older version 
  then use 'git checkout' to roll back into last position into local directory 

@@ -1,10 +1,13 @@
 this github command is use to control repository remotely
 
+to change master to main 
+use --> git branch -m master main
+
 The first thing is creating a remote repository
 
  use command --> git remote add <name> <url>
 
-e.g --> git remote add origin_west_bengal https://github.com/onemanfivee/How_to_control_github_repository.git
+e.g --> git remote add origin https://github.com/onemanfivee/How_to_control_github_repository.git
 
 then 
 to push repository to remote repository
@@ -13,5 +16,4 @@ use command --> git push -u <remote Name> <branch name>
 
 e.g --> git push -u origin main
 
-to change master to main 
-use --> git branch -m master main
+

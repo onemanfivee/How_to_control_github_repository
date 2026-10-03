@@ -1,0 +1,5 @@
+first goto website https://gitforwindows.org
+and download git SCM
+after the install  continue to next next to the end 
+to make git terminal default 
+goto the command platte --> select default profile --> select git bash 

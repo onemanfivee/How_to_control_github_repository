@@ -1,0 +1,19 @@
+                   Version Control
+let's talk about Version Control in its simplest form.
+Let's say that i create a new code file and i write few lines in it.
+Now I decide to put it under version control using Git.
+and let's say that i call this save point number one.
+
+Now this my first version, so later on as i progress
+i write maybe a few more lines of code.
+And at this point i decide to make another save point.
+and i call this my second version.
+further down the line, I accidentally screw up or mess up  my entire code file and it's irreparable and i get to the point 
+where i would rather burn my entire code file 
+rather than having to try and fix it.
+you do get into these situations because very often your code is interlinked and each class depends on another and sometimes you can screw up in a way where you know all hope is lost 
+And I simply just want to roll back to the last save point.  
+I can do that using Git 
+You can either compare your current code file, so the current mess that you've made, against a previous, so at any of the save points before.
+Alternatively, you can simply just roll back to a previous version, and it doesn't have to be the one that was immediately previous.
+You can go as far back or as far forwards as you like, as long as you know which version you want.

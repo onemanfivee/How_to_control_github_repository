@@ -1,0 +1,40 @@
+This git command is use to control version locally
+
+1st came in working directories
+
+to move in directories use 'cd filename' 
+
+In working directory or file or last changes in code
+
+first thing is we should initialize git using    
+ git init --> to initialize .git folder in the project 
+
+# Rename the local master branch to main
+--> git branch -m master main
+
+git status --> to see any modification previously 
+
+then use ' git add filename' to put file or code in staging area 
+
+Comparison of Commands
+Command	What it adds	Scope
+git add -A or git add --all	Untracked (new), modified, and deleted files	Entire repository, regardless of your current folder
+git add .	Untracked (new), modified, and deleted files	Current folder and its subfolders only
+git add -u	Modified and deleted files only (ignores new files)	Entire repository
+or search on google what do you want to add 
+
+then again see git status 
+
+then use ' git commit -m " your message" to commit file or last code 
+
+
+ use 'git diff filename'  to see current version and last save point in our git repository  
+
+ if any mistake happens in code and you want to move back to older version 
+ then use 'git checkout' to roll back into last position into local directory 
+
+use 'git log' what previous commit to the git repository
+
+
+use 'rm -rf .git' If you only want to remove the Git history (branches, commits, version tracking) but keep your source code untouched, delete the hidden .git folder
+ 

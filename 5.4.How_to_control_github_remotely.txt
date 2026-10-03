@@ -1,4 +1,4 @@
------- jalpaiguri 
+------ Kalimpong
 this github command is use to control repository remotely
 
 to change master to main 

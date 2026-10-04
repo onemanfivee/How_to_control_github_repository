@@ -10,6 +10,8 @@ In working directory or file or last changes in code
 first thing is we should initialize git using    
  git init --> to initialize .git folder in the project 
 
+ Run the --> dir /a command. The /a flag displays files with all attributes, including hidden files
+
 # Rename the local master branch to main
 --> git branch -m master main
 

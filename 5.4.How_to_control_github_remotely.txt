@@ -14,6 +14,12 @@ then
 to push repository to remote repository
 
 use command --> git push -u <remote Name> <branch name>
+# 1. Pull the remote changes and merge them
+-- > git pull origin main --rebase
+
+# 2. Push your changes back to GitHub
+--> git push -u origin main
+
 
 e.g --> git push -u origin main
 
